@@ -27,9 +27,9 @@ STD_TRAILING_NONES
 #ifndef ARDUX_STD_LAYER_PAR_LEFT
 #define ARDUX_STD_LAYER_PAR_LEFT \
 STD_LEADING_NONES \
-KC_RCBR,          KC_LPRN,          KC_RPRN,          KC_TRNS,          \
+KC_RCBR,          KC_LBRC,          KC_LPRN,          KC_TRNS,          \
 STD_BETWEEN_ROW_ONE_TWO_NONES \
-KC_LCBR,          KC_LBRC,          KC_RBRC,          KC_NO             \
+KC_LCBR,          KC_RBRC,          KC_RPRN,          KC_NO             \
 STD_TRAILING_NONES
 #endif
 
@@ -54,18 +54,18 @@ STD_TRAILING_NONES
 #ifndef ARDUX_STD_LAYER_SYM_LEFT
 #define ARDUX_STD_LAYER_SYM_LEFT \
 STD_LEADING_NONES \
-KC_GRV,           KC_SCLN,          KC_BSLS,          KC_EXLM,          \
+KC_BSLS,           KC_SCLN,          KC_GRV,          KC_HASH,          \
 STD_BETWEEN_ROW_ONE_TWO_NONES \
-KC_EQL,           KC_MINS,          KC_QUES,          KC_TRNS           \
+KC_EQL,           KC_MINS,          KC_AT,          KC_TRNS           \
 STD_TRAILING_NONES
 #endif
 
 #ifndef ARDUX_STD_LAYER_CUS_LEFT
 #define ARDUX_STD_LAYER_CUS_LEFT \
 STD_LEADING_NONES \
-KC_NO,            KC_VOLU,          KC_INS,           KC_MUTE,          \
+KC_NO,            KC_VOLU,          KC_MUTE,           KC_MPLY,          \
 STD_BETWEEN_ROW_ONE_TWO_NONES \
-KC_TRNS,          KC_VOLD,          KC_PSCR,          KC_RSFT           \
+KC_TRNS,          KC_VOLD,          KC_MNXT,          KC_MPRV           \
 STD_TRAILING_NONES
 #endif
 
@@ -90,9 +90,9 @@ STD_TRAILING_NONES
 #ifndef ARDUX_STD_LAYER_PAR_RIGHT
 #define ARDUX_STD_LAYER_PAR_RIGHT \
 STD_LEADING_NONES \
-KC_TRNS,          KC_LPRN,          KC_RPRN,          KC_LCBR,          \
+KC_TRNS,          KC_LPRN,          KC_LBRC,          KC_LCBR,          \
 STD_BETWEEN_ROW_ONE_TWO_NONES \
-KC_NO,            KC_LBRC,          KC_RBRC,          KC_RCBR           \
+KC_NO,            KC_RPRN,          KC_RBRC,          KC_RCBR           \
 STD_TRAILING_NONES
 #endif
 
@@ -117,18 +117,18 @@ STD_TRAILING_NONES
 #ifndef ARDUX_STD_LAYER_SYM_RIGHT
 #define ARDUX_STD_LAYER_SYM_RIGHT \
 STD_LEADING_NONES \
-KC_EXLM,          KC_BSLS,          KC_SCLN,          KC_GRV,           \
+KC_HASH,          KC_GRV,           KC_SCLN,          KC_BSLS,           \
 STD_BETWEEN_ROW_ONE_TWO_NONES \
-KC_TRNS,          KC_QUES,          KC_MINS,          KC_EQL            \
+KC_TRNS,          KC_AT,          KC_MINS,          KC_EQL            \
 STD_TRAILING_NONES
 #endif
 
 #ifndef ARDUX_STD_LAYER_CUS_RIGHT
 #define ARDUX_STD_LAYER_CUS_RIGHT \
 STD_LEADING_NONES \
-KC_MUTE,          KC_INS,           KC_VOLU,          KC_NO,            \
+KC_MPLY,          KC_MUTE,           KC_VOLU,          KC_NO,            \
 STD_BETWEEN_ROW_ONE_TWO_NONES \
-KC_RSFT,          KC_PSCR,          KC_VOLD,          KC_TRNS           \
+KC_MPRV,          KC_MNXT,          KC_VOLD,          KC_TRNS           \
 STD_TRAILING_NONES
 #endif
 
